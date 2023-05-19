@@ -1,3 +1,0 @@
-이상치 처리 직전 csv
-이상치 처리 code
-이상치 처리 후 csv (dataset.csv, 2_김시형 csv에서 풍속 풍향 삭제)
