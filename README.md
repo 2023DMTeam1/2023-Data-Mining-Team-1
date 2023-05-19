@@ -80,7 +80,7 @@ https://www.data.go.kr/data/3070842/openapi.do
 - 데이터 분석 및 학습에 사용하지 않을 feature 제거
 
 ## Modeling
-모델링
+### Model_01 at 산불 발생 단계
 
 ## Result
 분석 결과, 성능 평가
