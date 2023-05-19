@@ -32,7 +32,7 @@
   - 산불이 발생하여 신고가 접수되고, 화재 진압 기관이 화재 현장으로 출동하여, 진압이 완료된 시점을 의미
   - 사용 가능한 feature : 화재발생 월, 주말여부, 온도, 습도, 발화원인, 소방서명, 서센터명, 출동소요시간, 전체인력수합계, 화재진압시간, 동원장비수 등
 
-## Data Source
+## 1. Data Source
 #### 소방안전 빅데이터 플랫폼 - 강원도 산불 현황 데이터 (2011~2021)
 https://www.bigdata-119.kr/
 - 각 인스턴스는 산림화재 1건
@@ -43,7 +43,7 @@ https://www.data.go.kr/data/3070842/openapi.do
 - 각 인스턴스는 산림화재 1건
 - 피해면적합계 등 총 16개의 피처로 구성
 
-## PreProcessing
+## 2. PreProcessing
 - #### raw dataset 제작
 
   ___강원도 산불 현황 데이터___ 는 각 산림화재에 대한 독립변수를 포함
@@ -61,7 +61,7 @@ https://www.data.go.kr/data/3070842/openapi.do
   
   풍향 및 풍속 feature 삭제 (이상치)
 
-## Visualization
+## 3. Visualization
 - #### 시각화를 통해, 각 피처의 구성과 분포를 파악, 이후 데이터셋 재구조화에 해당 정보 활용
 - #### 시간축에서의 발화 원인 분포 확인, 온습도와 같은 수치형 데이터의 분포 확인 등을 통해 다음 사실을 확인
 
@@ -71,7 +71,7 @@ https://www.data.go.kr/data/3070842/openapi.do
   
   산불 발생 현황을 발화원인에 따라 분류했을 때 담뱃불이 압도적으로 많은 비율을 차지
   
-## ReStructuring
+## 4. ReStructuring
 #### 데이터 마이닝에 활용할 dataset 제작
 
 - 화재발생일자 바탕으로 주말 여부 컬럼 생성
@@ -79,7 +79,7 @@ https://www.data.go.kr/data/3070842/openapi.do
 - 지역범위 수정
 - 데이터 분석 및 학습에 사용하지 않을 feature 제거
 
-## Modeling & Result
+## 5. Modeling & Result
 ### Model_01 at 산불 발생 단계
 - #### Used Model
   - DecisionTreeRegressor
@@ -90,5 +90,5 @@ https://www.data.go.kr/data/3070842/openapi.do
   - R²(모델의 설명력) on test set: __-0.04__
 
 
-## Conclusion
+## 6. Conclusion
 결론
