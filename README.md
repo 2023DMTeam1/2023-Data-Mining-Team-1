@@ -12,11 +12,20 @@ https://www.data.go.kr/data/3070842/openapi.do
 - 각 인스턴스는 산림화재 1건
 - 피해면적합계 등 총 16개의 피처로 구성
 
+## PreProcessing
+- raw dataset 제작
+
+  강원도 산불 현황 데이터는 각 산림화재에 대한 독립변수를 포함
+  산림청_산불발생통계는 각 산림화재에 대한 종속변수(산불 피해 면적)를 포함
+  두 원천 데이터를 종합하여, 데이터 마이닝에 사용할 raw dataset 확보
+
+- 결측치 및 이상치 처리
+  
+  
+
 ## Visualization
 시각화
 
-## PreProcessing
-전처리
 
 ## Modeling
 모델링
