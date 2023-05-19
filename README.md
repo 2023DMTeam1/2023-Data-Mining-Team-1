@@ -86,7 +86,8 @@ https://www.data.go.kr/data/3070842/openapi.do
 - #### Used features
   - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
 - #### Result
-  - DecisionTreeRegressor
+  - RMSE(오차의 크기) on test set: __26.51__
+  - R²(모델의 설명력) on test set: __-0.04__
 
 
 ## Conclusion
