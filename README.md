@@ -79,11 +79,15 @@ https://www.data.go.kr/data/3070842/openapi.do
 - 지역범위 수정
 - 데이터 분석 및 학습에 사용하지 않을 feature 제거
 
-## Modeling
+## Modeling & Result
 ### Model_01 at 산불 발생 단계
+- #### Used Model
+  - DecisionTreeRegressor
+- #### Used features
+  - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
+- #### Result
+  - DecisionTreeRegressor
 
-## Result
-분석 결과, 성능 평가
 
 ## Conclusion
 결론
