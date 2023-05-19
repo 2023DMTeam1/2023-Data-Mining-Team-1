@@ -88,6 +88,27 @@ https://www.data.go.kr/data/3070842/openapi.do
 - #### Result
   - RMSE(오차의 크기) on test set: __26.51__
   - R²(모델의 설명력) on test set: __-0.04__
+ 
+### Model_02 at 산불 진화준비 단계
+- #### Used Model
+  - DecisionTreeRegressor
+- #### Used features
+  - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
+  - 소방서명, 서센터명, 출동소요시간, 현장소방서거리, 현장안전센터거리
+- #### Result
+  - RMSE(오차의 크기) on test set: __27.34__
+  - R²(모델의 설명력) on test set: __-0.11__
+
+### Model_03 at 산불 진화 단계
+- #### Used Model
+  - DecisionTreeRegressor
+- #### Used features
+  - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
+  - 소방서명, 서센터명, 출동소요시간, 현장소방서거리, 현장안전센터거리
+  - ㄹㄹㄹ
+- #### Result
+  - RMSE(오차의 크기) on test set: __27.34__
+  - R²(모델의 설명력) on test set: __-0.11__
 
 
 ## 6. Conclusion
