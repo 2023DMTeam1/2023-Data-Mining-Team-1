@@ -130,5 +130,5 @@ https://www.data.go.kr/data/3070842/openapi.do
   - feature가 늘어남에 따라, 필연적으로 Curse of dimensionality 발생
 
 - #### 개선방안
-  - 산불의 확산속도와 같은, 더 직접적이고 우효한 feature 획득
+  - 산불의 확산속도와 같은, 더 직접적이고 유효한 feature 획득
   - PCA 등 차원축소기법 
