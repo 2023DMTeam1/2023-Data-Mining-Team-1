@@ -114,4 +114,21 @@ https://www.data.go.kr/data/3070842/openapi.do
 
 
 ## 6. Conclusion
-결론
+- #### 진행 전 예상결과
+  - 산림 화재 피해면적은, 확보한 데이터셋에서 가공한 feature를 통해 설명 가능할 것
+  - 단계가 올라감에 따라 더 많은 feature를 활용할 수 있고, 이에 따라 모델의 설명력 즉 성능이 향상될 것
+ 
+- #### 결론 및 해석
+  - Model_02의 성능이 Model_01의 성능보다 낮게 도출되었음
+  - 낮은 성능으로 인해, 초기에 기획했던 '다음 단계에서의 대응 방안을 제시'는 어려울 것
+  - 최종 성능(R²) : __0.21__ with Model_03
+
+
+## 7. Limitations and Improvement Measures
+- #### 한계
+  - 산림 화재 피해면적은 확보한 데이터셋만으로 충분히 설명할 수 없음
+  - feature가 늘어남에 따라, 필연적으로 Curse of dimensionality 발생
+
+- #### 개선방안
+  - 산불의 확산속도와 같은, 더 직접적이고 우효한 feature 획득
+  - PCA 등 차원축소기법 
