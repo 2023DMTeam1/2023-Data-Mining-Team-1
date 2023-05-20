@@ -95,6 +95,7 @@ https://www.data.go.kr/data/3070842/openapi.do
 - #### Used features
   - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
   - 소방서명, 서센터명, 출동소요시간, 현장소방서거리, 현장안전센터거리
+  - 유동적으로 feature 조정
 - #### Result
   - RMSE(오차의 크기) on test set: __27.34__
   - R²(모델의 설명력) on test set: __-0.11__
@@ -103,12 +104,13 @@ https://www.data.go.kr/data/3070842/openapi.do
 - #### Used Model
   - DecisionTreeRegressor
 - #### Used features
-  - 화재발생_월, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 발화원인 종합
-  - 소방서명, 서센터명, 출동소요시간, 현장소방서거리, 현장안전센터거리
-  - ㄹㄹㄹ
+  - 한달내의 시기, 계절, 주말여부, 화재발생시간대, 시군구명, 발화지점, 날씨, 온도, 습도, 특보내용, 발화원인 종합
+  - 출동소요시간, 현장소방서거리, 현장안전센터거리
+  - 전체인력수합계, 화재진압시간, 동원장비수, 피해면적
+  - 유동적으로 feature 조정
 - #### Result
-  - RMSE(오차의 크기) on test set: __27.34__
-  - R²(모델의 설명력) on test set: __-0.11__
+  - RMSE(오차의 크기) on test set: __23.07__
+  - R²(모델의 설명력) on test set: __0.21__
 
 
 ## 6. Conclusion
